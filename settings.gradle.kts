@@ -1,5 +1,5 @@
 rootProject.name = "kotlin-User"
-include("user-be-common")
+
 include("user-mp-transport-models")
 
 pluginManagement{
@@ -10,4 +10,4 @@ pluginManagement{
         kotlin("jvm") version kotlinVersion apply false
     }
 }
-
+include("user-be-common")
